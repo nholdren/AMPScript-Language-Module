@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<!--
+	BBEdit codeless language module for AMPScript files.
+	Nick Holdren  <http://nickholdren.com>
+	Version 1.0
+	Mon 15 Aug 2011
+
+	Released under a Creative Commons Attribution-ShareAlike License:
+	<http://creativecommons.org/licenses/by-sa/2.0/>
+	
+	Requires BBEdit 8.0 or higher. To install, copy here:
+	
+		~/Library/Application Support/BBEdit/Language Modules/
+	
+	and relaunch BBEdit.
+-->
+<dict>
+	<key>BBEditDocumentType</key>
+	<string>CodelessLanguageModule</string>
+	<key>BBLMColorsSyntax</key> <true/>
+	<key>BBLMIsCaseSensitive</key> <false/>
+	<key>BBLMKeywordList</key>
+	<array>
+		<string>Add</string>
+		<string>AddMscrmListMember</string>
+		<string>AddObjectArrayItem</string>
+		<string>AttachFile</string>
+		<string>AttributeValue</string>
+		<string>AuthenticatedEmployeeID</string>
+		<string>AuthenticatedEmployeeNotificationAddress</string>
+		<string>AuthenticatedEmployeeUserName</string>
+		<string>AuthenticatedEnterpriseID</string>
+		<string>AuthenticatedMemberID</string>
+		<string>AuthenticatedMemberName</string>
+		<string>Base64Decode</string>
+		<string>Base64Encode</string>
+		<string>BeginImpressionRegion</string>
+		<string>BuildOptionList</string>
+		<string>BuildRowSetFromString</string>
+		<string>BuildRowSetFromXML</string>
+		<string>Char</string>
+		<string>ClaimRow</string>
+		<string>ClaimRowValue</string>
+		<string>Concat</string>
+		<string>ContentArea</string>
+		<string>ContentAreaByName</string>
+		<string>CreateMscrmRecordab</string>
+		<string>CreateObject</string>
+		<string>CreateSalesforceObjectabab</string>
+		<string>DateAdd</string>
+		<string>DateDiff</string>
+		<string>DateParse</string>
+		<string>DatePart</string>
+		<string>DecryptSymmetric</string>
+		<string>DeleteData</string>
+		<string>DeleteDE</string>
+		<string>DescribeMscrmEntities</string>
+		<string>DescribeMscrmEntityAttributes</string>
+		<string>DirectTwitterMessage</string>
+		<string>Divide</string>
+		<string>Domain</string>
+		<string>Empty</string>
+		<string>EncryptSymmetric</string>
+		<string>EndImpressionRegion</string>
+		<string>ExecuteFilter</string>
+		<string>ExecuteFilterOrderedRows</string>
+		<string>Field</string>
+		<string>Format</string>
+		<string>GetPortfolioItem</string>
+		<string>GetPublishedSocialContent</string>
+		<string>GetSocialPublishURL</string>
+		<string>GetSocialPublishURLByName</string>
+		<string>GUID</string>
+		<string>HTTPGet</string>
+		<string>HTTPRequestHeader</string>
+		<string>IIf</string>
+		<string>Image</string>
+		<string>IndexOf</string>
+		<string>InsertData</string>
+		<string>InsertDE</string>
+		<string>InvokeCreate</string>
+		<string>InvokeDelete</string>
+		<string>InvokeExecute</string>
+		<string>InvokePerform</string>
+		<string>InvokeRetrieve</string>
+		<string>InvokeUpdate</string>
+		<string>IsEmailAddress</string>
+		<string>Iull</string>
+		<string>IullDefault</string>
+		<string>IsPhoneNumber</string>
+		<string>Length</string>
+		<string>LiveContentMicrositeURL</string>
+		<string>LocalDateToSystemDate</string>
+		<string>LongSFID</string>
+		<string>Lookup</string>
+		<string>LookupOrderedRows</string>
+		<string>LookupOrderedRowsCS</string>
+		<string>LookupRows</string>
+		<string>LookupRowsCS</string>
+		<string>Lowercase</string>
+		<string>MD5</string>
+		<string>Mod</string>
+		<string>Multiply</string>
+		<string>Now</string>
+		<string>ProperCase</string>
+		<string>QueryParameter</string>
+		<string>RaiseError</string>
+		<string>Random</string>
+		<string>Redirect</string>
+		<string>RedirectTo</string>
+		<string>RegExMatch</string>
+		<string>Replace</string>
+		<string>ReplaceList</string>
+		<string>RequestParameter</string>
+		<string>RetrieveMscrmRecordsabc</string>
+		<string>RetrieveMscrmRecordsFetchXML</string>
+		<string>RetrieveSalesforceJobSources</string>
+		<string>RetrieveSalesforceObjectsabcabc</string>
+		<string>RowRS</string>
+		<string>RowCountRS</string>
+		<string>SetObjectProperty</string>
+		<string>SetSmsConversationNextKeyword</string>
+		<string>SetStateMscrmRecord</string>
+		<string>SHA256</string>
+		<string>SHA512</string>
+		<string>SpecialAttributeTypes</string>
+		<string>StringToDate</string>
+		<string>StringToHex</string>
+		<string>Substring</string>
+		<string>Subtract</string>
+		<string>SystemDateToLocalDate</string>
+		<string>TransformXML</string>
+		<string>TreatAsContent</string>
+		<string>TreatAsContentArea</string>
+		<string>Trim</string>
+		<string>UpdateData</string>
+		<string>UpdateDE</string>
+		<string>UpdateMscrmRecords</string>
+		<string>UpdateSingleSalesforceObject</string>
+		<string>UpdateTwitterStatus</string>
+		<string>UpdateTwitterStatusByJob</string>
+		<string>Uppercase</string>
+		<string>UpsertData</string>
+		<string>UpsertDE</string>
+		<string>UpsertMscrmRecordabab</string>
+		<string>URLEncode</string>
+		<string>V</string>
+		<string>WAT</string>
+		<string>WATP</string>
+		<string>WrapLongURL</string>
+		<string>SET</string>
+		<string>VAR</string>
+		<string>FOR</string>
+		<string>IF</string>
+		<string>THEN</string>
+		<string>ELSE</string>
+		<string>ENDIF</string>
+		<string>NEXT</string>
+		<string>TO</string>
+	</array>
+	<key>BBLMLanguageCode</key>
+	<string>AMP</string>
+	<key>BBLMLanguageDisplayName</key>
+	<string>AMPScript</string>
+	<key>BBLMScansFunctions</key> <true/>
+
+	<key>BBLMSuffixMap</key>
+	<array>
+		<dict>
+			<key>BBLMLanguageSuffix</key>
+			<string>.amp</string>
+		</dict>
+		<dict>
+			<key>BBLMLanguageSuffix</key>
+			<string>.txt</string>
+		</dict>
+	</array>
+
+	<key>Language Features</key>
+	<dict>
+		<key>Close Block Comments</key>
+		<string>*/</string>
+		<key>Close Parameter Lists</key>
+		<string>)</string>
+		<key>Close Statement Blocks</key>
+		<array>
+				<string>]%%</string>
+				<string>=%%</string>
+			</array>
+		<key>Close Strings 1</key>
+		<string>'</string>
+		<key>Close Strings 2</key>
+		<string>"</string>
+		<key>End-of-line Ends Strings 1</key>
+		<false/>
+		<key>End-of-line Ends Strings 2</key>
+		<false/>
+		<key>Escape Char in Strings 1</key>
+		<string>\</string>
+		<key>Escape Char in Strings 2</key>
+		<string>\</string>
+		<key>Identifier and Keyword Characters</key>
+		<string>0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz</string>
+		<key>Open Block Comments</key>
+		<string>/*</string>
+		<key>Open Line Comments</key>
+		<string></string>
+		<key>Open Parameter Lists</key>
+		<string>(</string>
+		<key>Open Statement Blocks</key>
+			<array>
+				<string>&#37;&#37;[</string>
+				<string>%%=</string>
+			</array>
+		<key>Open Strings 1</key>
+		<string>'</string>
+		<key>Open Strings 2</key>
+		<string>"</string>
+		<key>Prefix for Functions</key>
+		<string></string>
+		<key>Prefix for Procedures</key>
+		<string></string>
+		<key>Terminator for Prototypes 1</key>
+		<string></string>
+		<key>Terminator for Prototypes 2</key>
+		<string></string>
+	</dict>
+</dict>
+</plist>
