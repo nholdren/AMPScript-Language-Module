@@ -11,7 +11,7 @@ Installation
 Put it manually into "~/Library/Application Support/TextWrangler/Language Modules/".
 
 
-Source code is available on Google Code:
+Source code is available on Github:
 https://github.com/jhwatchtower/AMPScript-Language-Module
 
 Current limitations
@@ -31,7 +31,7 @@ Change history
 License
 -------
 
-Copyright (c) 2011 by Nick Holdren, Fanmail Marketing.
+Copyright (c) 2011 by Nick Holdren.
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
